@@ -99,7 +99,7 @@ if st.button("Predict Lead Conversion", type="primary"):
 
     try:
 
-        api_url = "https://<your-space-name>.hf.space/v1/predict"
+        api_url = "http://172.18.0.1:7860/v1/predict"
 
         response = requests.post(
             api_url,
